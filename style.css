@@ -49,15 +49,15 @@ section{
     min-height: 100vh;
     display: lift;
     align-items: center;
-    background: url(backround1.jpg) no-repeat;
+    background: url(photo-output.PNG) no-repeat;
     background-size: cover;
-    background-position:  center top;
+    background-position:  center lift;
     background-attachment:fixed ;
     
 
 }
 .main h2{
-    color: #000000;
+    color: #fefbfb;
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -70,7 +70,7 @@ section{
 }
 
 .main h3 {
-    color: #000000;
+    color: #ffffff;
     font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -80,7 +80,7 @@ section{
 
 .main-btn{
     color: #000000;
-    background-color:#7e9ef7; ;
+    background-color:#5381fd; ;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -247,8 +247,9 @@ section{
         padding: 80px 20px;
     }
      .main-btn{
+         
          font-size: 0.9em;
-         font-weight: 80;   
+         font-weight: 500;   
      }
     
     .main-content h2{
@@ -268,6 +269,7 @@ section{
 @media (max-width:641px){
     body{
         font-size: 12px;
+        
     }
 
     .main-content h2{
@@ -282,11 +284,11 @@ section{
 @media (max-width:300px){
     body{
         font-size: 10px;
-        .main{
-            background-size: contain;
-            background-position: center;
-        }
     }
-
+    .main{
+        background-size: contain;
+        background-position: center;
     }
 }
+
+
