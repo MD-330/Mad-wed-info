@@ -49,7 +49,7 @@ section{
     min-height: 100vh;
     display: lift;
     align-items: center;
-    background: url(photo-output.PNG) no-repeat;
+    background: url(backround1.jpg) no-repeat;
     background-size: cover;
     background-position:  center lift;
     background-attachment:fixed ;
@@ -57,7 +57,7 @@ section{
 
 }
 .main h2{
-    color: #fefbfb;
+    color: #000000;
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -70,7 +70,7 @@ section{
 }
 
 .main h3 {
-    color: #ffffff;
+    color: #0d0d0d;
     font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -80,7 +80,7 @@ section{
 
 .main-btn{
     color: #000000;
-    background-color:#5381fd; ;
+    background-color:#8084ff; ;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -290,5 +290,7 @@ section{
         background-position: center;
     }
 }
+
+
 
 
