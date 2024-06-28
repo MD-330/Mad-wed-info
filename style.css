@@ -49,9 +49,9 @@ section{
     min-height: 100vh;
     display: lift;
     align-items: center;
-    background: url(backround1.jpg) no-repeat;
+    background: url(WhatsApp Image 2024-06-28 at 2.40.58 AM.jpeg) no-repeat;
     background-size: cover;
-    background-position:  center lift;
+    background-position:  center top;
     background-attachment:fixed ;
     
 
@@ -70,7 +70,7 @@ section{
 }
 
 .main h3 {
-    color: #0d0d0d;
+    color: #000000;
     font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -80,7 +80,7 @@ section{
 
 .main-btn{
     color: #000000;
-    background-color:#8084ff; ;
+    background-color:#4d7cff; ;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -285,10 +285,15 @@ section{
     body{
         font-size: 10px;
     }
+    
+}
+
+@media (max-width: 300px) {
     .main{
         background-size: contain;
         background-position: center;
     }
+
 }
 
 
